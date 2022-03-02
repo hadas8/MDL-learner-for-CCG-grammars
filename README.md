@@ -22,15 +22,19 @@ The Algorithm receives an input string and an initial grammar and in each iterat
 Following Rasin and Katzir (2016), I have selected the initial temperature to be 100.0 and the cooing factor α to be 0.999985.
 
 I implemented several methods in 2 Python files:
+
 Simulated algorithm learner:
-	The simulated annealing algorithm as described above
-	MDL calculation method for calculating MDL of a given grammar in CCG and input string
-	A main program that tests the algorithm, with the examples detailed below
+-	The simulated annealing algorithm as described above
+-	MDL calculation method for calculating MDL of a given grammar in CCG and input string
+-	A main program that tests the algorithm, with the examples detailed below
+
 Grammars:
-	a grammar pool – a collection of CCG grammars compatible with the examples detailed below
+- 	a grammar pool – a collection of CCG grammars compatible with the examples detailed below
+
 Additionally, submitted with this work are 3 more Pthon files:
-	ccg_algorithm
-	rules
-	lexicon
+-	ccg_algorithm
+-	rules
+-	lexicon
+
 These files are the implementation of the CCG parser I used, that Ihave implemented in my previous work.
 
